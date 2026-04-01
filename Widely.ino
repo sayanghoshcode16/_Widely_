@@ -9,13 +9,13 @@ extern "C" {
 #endif
 
 // ================= CONFIGURATION =================
-#define DEAUTH_WINDOW_MS 5000     // Window to count deauth frames
-#define DEAUTH_THRESHOLD 30      // Deauth frames in window to trigger alert
-#define MAX_SSIDS 20             // Max unique SSIDs to track
-#define MAX_BSSID_PER_SSID 3     // Max BSSIDs allowed per SSID
-#define HOP_INTERVAL_MS 250      // Time spent on each channel
-#define LED_PIN 2                // GPIO2 (Internal LED)
-#define MAX_ALERTS_QUEUE 5       // Pending alerts to handle in loop
+#define DEAUTH_WINDOW_MS 5000     
+#define DEAUTH_THRESHOLD 30      
+#define MAX_SSIDS 20             
+#define MAX_BSSID_PER_SSID 3     
+#define HOP_INTERVAL_MS 250      
+#define LED_PIN 2                
+#define MAX_ALERTS_QUEUE 5       
 
 // ================= DATA STRUCTURES =================
 struct DeauthEvent {
